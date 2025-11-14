@@ -1,18 +1,77 @@
-## Getting Started
+# 🧮 Expression Analyzer (Java CLI)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A fast and lightweight Java command-line tool that evaluates mathematical expressions like a real calculator.  
+Supports brackets, operator precedence, multiplication, division, and nested expressions — all without external libraries.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🚀 Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Evaluate expressions such as:  
+  `8*(5+2)-4`, `10/2+6*3`, `(3+5)*(2-1)`
+- Supports:
+  - `+` addition  
+  - `-` subtraction  
+  - `*` multiplication  
+  - `/` division  
+  - `()` parentheses  
+  - Unary + and -  
+- Pure Java implementation — no ScriptEngine, no external dependencies.
+- Instant results with accurate precedence and parsing.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📂 Project Structure
 
-## Dependency Management
+ExpAnalyzer/
+│
+├── src/
+│   └── App.java          # Main Expression Analyzer logic
+│
+└── README.md
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🛠️ How to Compile
+Run this in the project root:
+
+```bash
+javac src/App.java
+
+This will generate:
+src/App.class
+```
+
+▶️ How to Run
+
+```bash
+java -cp src App
+```
+
+You will see:
+🧮 Expression Analyzer Started!
+Enter a math expression (e.g., 8*(5+2)):
+
+📌 Example Usage
+Input:
+8*(5+2)-4
+Output:
+Final Result: 52.0
+
+Input:
+(3+7)/2 + 6*3
+Output:
+Final Result: 23.0
+
+🔧 Future Enhancements
+Step-by-step evaluation breakdown
+Error highlighting for invalid expressions
+Support for exponentiation (^)
+GUI version using Java Swing
+History of past calculations
+
+📘 Built With
+Java (JDK 8+)
+No external libraries
+
+
