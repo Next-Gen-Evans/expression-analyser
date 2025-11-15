@@ -71,9 +71,9 @@ public class App {
 
             double parseFactor() {
                 if (eat('+'))
-                    return parseFactor(); // unary plus
+                    return parseFactor();
                 if (eat('-'))
-                    return -parseFactor(); // unary minus
+                    return -parseFactor();
 
                 double x;
                 int startPos = this.pos;
