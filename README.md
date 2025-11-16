@@ -74,4 +74,8 @@ History of past calculations
 Java (JDK 8+)
 No external libraries
 
+# 👨‍💻 Author
+- **Evans Mutharimi Buongo**
+
+If you found this helpful, give it a ⭐!
 
