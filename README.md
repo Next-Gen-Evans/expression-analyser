@@ -2,6 +2,7 @@
 
 
 
+
 A fast and lightweight Java command-line tool that evaluates mathematical expressions like a real calculator.  
 Supports brackets, operator precedence, multiplication, division, and nested expressions — all without external libraries.
 
